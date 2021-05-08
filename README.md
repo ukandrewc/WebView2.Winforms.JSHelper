@@ -25,6 +25,8 @@ e.g.
 
 __Res = Web.CoreWebView2.ExecuteScriptResourceSync(_relative\_path_)__
 
+__Task = Web.CoreWebView2.ExecuteScriptResourceAsync(_relative\_path_)__
+
 ```
 Private Sub TestFrm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 	Web.EnsureCoreWebView2Async.RunSync
