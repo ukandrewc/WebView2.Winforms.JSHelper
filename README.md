@@ -3,7 +3,7 @@
 
 The inspiration was to try and get as close as possible to inline editing of javascript for executing in WebView2.
 
-The library allow you to execute scripts from file in debug and as a resource in release.
+The library allow you to execute scripts from file in while in debug, and as a resource in release.
 When in release it will execute a minfied version from resources, if there is one.
 
 In debug you can then edit your scripts as text instead of strings and without having to recompile to update the script.
