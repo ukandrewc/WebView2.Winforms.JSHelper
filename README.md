@@ -4,6 +4,8 @@
 The library allow you to execute scripts from file in debug and as a resource in release.
 When in release it will execute a minfied version from resources, if there is one.
 
+In debug you can then edit your scripts as text instead of strings and without having to recompile to update the script.
+
 The library also include a RunSync function and method, as an extension of Task to run tasks synchronously.
 
 # Usage
@@ -33,3 +35,6 @@ Private Sub Web_NavigationCompleted(sender As Object, e As CoreWebView2Navigatio
 End Sub
 ```
 When in debug, this will load the script from the named __relative_path__ in release it will load it from the resource with the same name or minified version, if there is one.
+
+# Debugging
+When the DevTools window is open, adding the command __debugger__, to you script will pause the script at that line. You can then inspect and set other breakpoints in your script.
