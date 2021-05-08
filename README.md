@@ -1,7 +1,7 @@
 # WebView2.Winforms.JSHelper
 ### Extensions to allow easier coding and debugging of ExecuteScriptAsync in WebView2
 
-The inspiration was to try and get as close as possible to inline editing of javascript.
+The inspiration was to try and get as close as possible to inline editing of javascript for executing in WebView2.
 
 The library allow you to execute scripts from file in debug and as a resource in release.
 When in release it will execute a minfied version from resources, if there is one.
