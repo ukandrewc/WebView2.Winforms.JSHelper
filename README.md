@@ -38,7 +38,7 @@ Private Sub Web_NavigationCompleted(sender As Object, e As CoreWebView2Navigatio
 	Web.CoreWebView2.ExecuteScriptResourceSync("Script\test.js")
 End Sub
 ```
-When in debug, this will load the script from the named __relative_path__ in release it will load it from the resource with the same name or minified version, if there is one.
+When in debug, this will load the script from the named __relative_path__. In release, it will load the resource with the same name or minified version, if there is one.
 
 # Debugging
 When the DevTools window is open, adding the command __debugger__, to you script will pause the script at that line. You can then inspect and set other breakpoints in your script.
