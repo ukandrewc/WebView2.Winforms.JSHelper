@@ -13,7 +13,7 @@ The library also include a RunSync function and method, as an extension of Task 
 # Usage
 
 * Add your .js scripts to a folder in your project.
-* Add the same file to your project as resource.
+* Add the same file (or minified version) to your project as resource.
 
 If you want to minify your script, then add the minified file to your resources with __\_min__ appended to the name.
 
