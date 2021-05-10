@@ -8,7 +8,7 @@ When in release it will execute a minfied version from resources, if there is on
 
 In debug you can then edit your scripts in a decent editor instead of strings or resources, and without having to recompile to update the script.
 
-The library also include a RunSync function and method, as an extension of Task to run tasks synchronously.
+The library also includes a RunSync function and method, as an extension of Task to run tasks synchronously.
 
 # Usage
 
